@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app = "MainApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JVScores</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+</head>
+
+<body ng-controller="controladorPrincipal">
+    <div class="topnav" id="myTopnav">
+        <a href="/" class="active"><img src="icon/football.png" width="25px" class="animated infinite pulse"> Tecsup</a>
+        <a href="/equipo"><img src="icon/football-player-attempting-to-kick-ball.png" width="25px" class="animated infinite pulse"></a>
+        <a href="/partido"><img src="icon/football-field.png" width="25px" class="animated infinite pulse"></a>
+        <a href="/score"><img src="icon/archery.png" width="25px" class="animated infinite pulse"></a>
+        <a href="/sesion"><img src="icon/enter.png" width="25px" class="animated infinite pulse"></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="icon/wrench.png" width="25px" class="animated infinite pulse"></a>
+      </div>
+      <!--Tabla de encuentros más próximos-->
+    <div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">        
+   <div class="table100 ver1 m-b-110">
+					<div class="table100-head">
+						<table>
+							<thead>
+								<tr class="row100 head">
+									<th class="cell100 column1">Liga</th>
+									<th class="cell100 column2">Equipo</th>
+									<th class="cell100 column3">Hora</th>
+									<th class="cell100 column4">Equipo</th>
+									<th class="cell100 column5">Lugar</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+
+					<div class="table100-body js-pscroll">
+						<table>
+							<tbody>							
+								<tr class="row100 body"  ng-repeat="partido in partidos">
+									<td class="cell100 column1">{{partido.Liga}}</td>
+									<td class="cell100 column2">{{partido.EquipoL}}</td>
+									<td class="cell100 column3">{{partido.Hora}}</td>
+									<td class="cell100 column4">{{partido.EquipoV}}</td>
+									<td class="cell100 column5">{{partido.Lugar}}</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+          
+          
+		      </div>
+            </div>
+          </div>
+       <!--Fin de tabla de encuentros más próximos-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+	<script src="nucleo.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

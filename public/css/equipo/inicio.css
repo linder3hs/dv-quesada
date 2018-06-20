@@ -1,0 +1,133 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: white; }
+
+div.conlogos {
+  width: 50%;
+  height: 50%; }
+  div.conlogos img.logo {
+    height: 100%;
+    max-width: 100%; }
+
+div.entrada p {
+  color: rgba(17, 44, 165, 0.671);
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 5px 5px 10px; }
+
+div.equipos {
+  margin-top: 30px; }
+
+div.grupoA {
+  border: 2px solid #c02424;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(128, 20, 20, 0.37);
+  margin-bottom: 20px; }
+  div.grupoA div.ga {
+    margin-top: 2px;
+    border: 2px solid #c92c2c;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black; }
+
+div.grupoB {
+  border: 2px solid #c02424;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(28, 70, 160, 0.664);
+  margin-bottom: 20px; }
+  div.grupoB div.gb {
+    margin-top: 2px;
+    border: 2px solid #c92c2c;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black; }
+
+div.grupoC {
+  border: 2px solid #c02424;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(187, 87, 6, 0.658);
+  margin-bottom: 20px; }
+  div.grupoC div.gc {
+    margin-top: 2px;
+    border: 2px solid #c92c2c;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black; }
+
+div.grupoD {
+  border: 2px solid #c02424;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(11, 95, 121, 0.479);
+  margin-bottom: 20px; }
+  div.grupoD div.gd {
+    margin-top: 2px;
+    border: 2px solid #c92c2c;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black; }
+
+div.grupoE {
+  border: 2px solid #c02424;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(22, 36, 117, 0.548);
+  margin-bottom: 20px; }
+  div.grupoE div.ge {
+    margin-top: 2px;
+    border: 2px solid #c92c2c;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black; }
+
+div.grupoF {
+  border: 2px solid #c02424;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(155, 104, 39, 0.658);
+  margin-bottom: 20px; }
+  div.grupoF div.gf {
+    margin-top: 2px;
+    border: 2px solid #c92c2c;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black; }
+
+div.grupoG {
+  border: 2px solid #c02424;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.61);
+  margin-bottom: 20px; }
+  div.grupoG div.gg {
+    margin-top: 2px;
+    border: 2px solid #c92c2c;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black; }
+
+div.grupoH {
+  border: 2px solid #c02424;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(187, 21, 146, 0.466);
+  margin-bottom: 20px; }
+  div.grupoH div.gh {
+    margin-top: 2px;
+    border: 2px solid #c92c2c;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black; }
+
+/*# sourceMappingURL=inicio.css.map */

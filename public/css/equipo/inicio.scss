@@ -1,0 +1,87 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+div.conlogos{
+    width: 50%;
+    height: 50%;
+    img.logo{
+        height: 100%;
+        max-width: 100%;
+    }
+}
+div.entrada{
+    p{
+        color: rgba(17, 44, 165, 0.671);
+        text-align: center;
+        font-size: 60px;
+        text-shadow: 5px 5px 10px;
+    }
+}
+@mixin pri($bk) {
+    border: 2px solid rgb(192, 36, 36);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: $bk;
+    margin-bottom: 20px;
+}
+
+@mixin seg() {
+    margin-top: 2px;
+    border: 2px solid rgb(201, 44, 44);
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: black;
+}
+div.equipos {
+    margin-top: 30px;
+}
+div.grupoA {
+    @include pri(rgba(128, 20, 20, 0.37));
+    div.ga {
+        @include seg;
+    }
+}
+div.grupoB {
+    @include pri(rgba(28, 70, 160, 0.664));
+    div.gb {
+        @include seg;
+    }
+}
+div.grupoC {
+    @include pri(rgba(187, 87, 6, 0.658));
+    div.gc {
+        @include seg;
+    }
+}
+div.grupoD {
+    @include pri(rgba(11, 95, 121, 0.479));
+    div.gd {
+        @include seg;
+    }
+}
+div.grupoE {
+    @include pri(rgba(22, 36, 117, 0.548));
+    div.ge {
+        @include seg;
+    }
+}
+div.grupoF {
+    @include pri(rgba(155, 104, 39, 0.658));
+    div.gf {
+        @include seg;
+    }
+}
+div.grupoG {
+    @include pri(rgba(0, 0, 0, 0.61));
+    div.gg {
+        @include seg;
+    }
+}
+div.grupoH {
+    @include pri(rgba(187, 21, 146, 0.466));
+    div.gh {
+        @include seg;
+    }
+}
